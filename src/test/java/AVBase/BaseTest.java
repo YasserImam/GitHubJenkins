@@ -44,8 +44,8 @@ public class BaseTest {
         service.start();
 
         UiAutomator2Options options = new UiAutomator2Options();
-        //options.setDeviceName("Pixel 4 XL API 29");
-        options.setDeviceName("127.0.0.1:21503 device");
+        options.setDeviceName("Pixel 4 XL API 29");
+        //options.setDeviceName("127.0.0.1:21503 device");
         options.setPlatformName("android");
         options.autoGrantPermissions();
         //options.setChromedriverExecutable("C:\\Users\\Yasser\\Desktop\\DTP\\Tools\\chromedriver.exe");
